@@ -8,9 +8,17 @@ function writeCards(names, adj) {
     return answer
 }
 
-function countDown(number) {
+function forcountDown(number) {
     for (let i = number; i>=0; i--){
         console.log(i)
+    }
+}
+
+function countDown(number){
+    let i = number;
+    while (i >= 0){
+        console.log(i--)
+
     }
 }
 
